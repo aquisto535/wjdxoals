@@ -4,7 +4,7 @@
   "description": "second trial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "babel-node index.js "
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/aquisto535/wjdxoals/issues"
   },
-  "homepage": "https://github.com/aquisto535/wjdxoals#readme"
+  "homepage": "https://github.com/aquisto535/wjdxoals#readme",
+  "dependencies": {
+    "@babel/node": "^7.18.10",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  }
 }
