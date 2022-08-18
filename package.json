@@ -4,7 +4,7 @@
   "description": "second trial",
   "main": "index.js",
   "scripts": {
-    "dev": "babel-node index.js "
+    "dev": "babel-node src/server.js "
   },
   "repository": {
     "type": "git",
