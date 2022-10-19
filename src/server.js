@@ -1,4 +1,5 @@
 import express from "express";
+import logger from "logger";
 
 const PORT = 4000;
 
