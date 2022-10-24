@@ -15,7 +15,6 @@
   "bugs": {
     "url": "https://github.com/aquisto535/wjdxoals/issues"
   },
-  "homepage": "https://github.com/aquisto535/wjdxoals#readme",
   "dependencies": {
     "@babel/node": "^7.18.10",
     "express": "^4.18.1",
