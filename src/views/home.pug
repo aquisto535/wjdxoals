@@ -2,7 +2,7 @@ extends base.pug
 
 block content
     h1 Home
-    form 
+    form(action="/add" method="POST")
         input(placeholder="What's your ID")
         input(placeholder="What's your Password")
         button send 
