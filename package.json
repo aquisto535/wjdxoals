@@ -1,29 +1,29 @@
 {
   "name": "wjdxoals",
   "version": "1.0.0",
-  "description": "second trial",
-  "main": "server.js",
+  "description": "",
+  "main": "init.js",
   "scripts": {
-    "dev": "babel-node src/server.js "
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aquisto535/wjdxoals.git"
   },
-  "author": "TaeMin Jung",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/aquisto535/wjdxoals/issues"
   },
+  "homepage": "https://github.com/aquisto535/wjdxoals#readme",
   "dependencies": {
-    "@babel/node": "^7.18.10",
-    "express": "^4.18.1",
-    "logger": "^0.0.1",
-    "morgan": "^1.10.0",
-    "pug": "^3.0.2"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.10",
-    "@babel/preset-env": "^7.19.4"
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2"
   }
 }
